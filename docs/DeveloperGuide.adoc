@@ -35,7 +35,7 @@ If not, you will not be able to run or make changes to it.
 Having any Java 8 version will not be sufficient. +
 Bevy will not work with earlier versions of Java 8.
 +
-
+ 
 . *IntelliJ* IDE
 +
 [NOTE]
