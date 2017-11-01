@@ -105,12 +105,6 @@ public class BirthdayStatisticsPanel extends UiPart<Region> {
 
         // Create a XYChart.Data object for each month. Add it to the series.
         for (int i = 0; i < monthCounter.length; i++) {
-            //if (!series.getData().isEmpty()){
-                //series.getData().remove(monthCounter[i]);
-                //series.getData().remove(monthNames.get(i));
-              //  series.getData().remove(new XYChart.Data<>(monthNames.get(i), monthCounter[i]));
-            //}
-
             series.getData().add(new XYChart.Data<>(monthNames.get(i), monthCounter[i]));
         }
         barChart.getData().clear();
